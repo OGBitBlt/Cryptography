@@ -3,6 +3,12 @@
     "description": "PHP Library to encrypt and decrypt data",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "readme": "README.md",
+    "config": {
+        "optimize-autoloader": true
+    },
     "autoload": {
         "psr-4": {
             "OGBitBlt\\Cryptography\\": "src/"
@@ -18,5 +24,7 @@
             "email": "ogbitblt@pm.me"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.1",
+    }
 }

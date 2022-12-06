@@ -1,0 +1,22 @@
+{
+    "name": "ogbitblt/cryptography",
+    "description": "PHP Library to encrypt and decrypt data",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OGBitBlt\\Cryptography\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "OGBitBlt",
+            "email": "113487847+OGBitBlt@users.noreply.github.com"
+        },
+        {
+            "name": "Anthony Davis",
+            "email": "ogbitblt@pm.me"
+        }
+    ],
+    "require": {}
+}
